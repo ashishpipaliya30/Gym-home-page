@@ -131,12 +131,54 @@
         margin-top: 10px;
     }
 
-    #lorem{
-        color: rgb(229, 229, 229);
+    #lorem {
+        color: rgb(230, 230, 230);
         font-size: 28px;
         width: 1200px;
     }
 
+    #services {
+        margin: 34px;
+        display: flex;
+    }
+
+    #services .box {
+        border: 3px solid black;
+        padding: 34px;
+        margin: 615px 8px;
+        border-radius: 28px;
+        background: #a1a1a1;
+        color: black;
+        text-align: center;
+    }
+
+    #services .box img {
+        display: block;
+        height: 156px;
+        margin: auto;
+    }
+
+    .h-primary {
+        font-family: 'Poppins', sans-serif;
+        font-size: 3.8rem;
+        padding: 12px;
+        padding-top: 12px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .h-secondary {
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.3rem;
+        padding: 12px;
+    }
+
+    .service{
+        text-align: center;
+        justify-content: center;
+        font-size: 26px;
+        margin-top: 100px;
+    }
 </style>
 
 <body>
@@ -188,8 +230,41 @@
         <div id="right">
             <h1><u>Welcome to Ashu Fitness Gym</u></h1>
         </div>
-        <h1 id="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, amet vel soluta quis necessitatibus in expedita officia earum dolores commodi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, tempora. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, non!</h1>
+        <h1 id="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, amet vel soluta quis
+            necessitatibus in expedita officia earum dolores commodi! Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Ut, tempora. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, non!</h1>
     </div>
+
+    <section class="services-container">
+        <h1 class="service">Our services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="img/pizza1.png" alt="">
+                <h2 class="h-secondary center">Food ordering</h2>
+                <p class="center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, culpa officiis.
+                    Tempora pariatur impedit voluptates sapiente cum nostrum et quos molestias provident! Excepturi,
+                    tenetur maxime! Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique porro voluptate
+                    praesentium inventore hic deserunt neque. Officia, libero. Ipsum, veritatis?</p>
+            </div>
+
+            <div class="box">
+                <img src="img/img6.png" alt="">
+                <h2 class="h-secondary center">Food Catering</h2>
+                <p class="center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, culpa officiis.
+                    Tempora pariatur impedit voluptates sapiente cum nostrum et quos molestias provident! Excepturi,
+                    tenetur maxime! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos et odio fugiat libero
+                    illo voluptates, quis necessitatibus est in architecto.</p>
+            </div>
+
+            <div class="box">
+                <img src="img/img9.jpg" alt="">
+                <h2 class="h-secondary center">Bulk ordering</h2>
+                <p class="center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, culpa officiis.
+                    Tempora pariatur impedit voluptates sapiente cum nostrum et quos molestias provident! Excepturi,
+                    tenetur maxime! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur recusandae sunt
+                    rem provident! Vitae ab laboriosam, hic quis praesentium soluta!</p>
+            </div>
+        </div>
 
 </body>
 
