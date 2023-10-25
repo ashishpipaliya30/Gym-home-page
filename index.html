@@ -1,251 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ashu Fitness</title>
-</head>
-<link rel="stylesheet" href="css/style.css">
-<style>
+  </head>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
     /* CSS reset */
     body {
-        font-family: sans-serif;
-        margin: 0px;
-        padding: 0px;
-        background: url('img/gym1.jpg');
-        background-repeat: no-repeat;
-        background-size: 1100px;
-        color: rgb(0, 0, 0);
+      font-family: sans-serif;
+      margin: 0px;
+      padding: 0px;
+      background: url("img/gym1.jpg");
+      background-repeat: no-repeat;
+      background-size: 2000px;
+      color: rgb(0, 0, 0);
     }
 
     .left {
-        position: absolute;
-        left: 60px;
-        top: 20px;
-        display: inline-block;
-        /* border: 2px solid red; */
+      position: absolute;
+      left: 60px;
+      top: 20px;
+      display: inline-block;
     }
 
     .mid {
-        display: block;
-        width: 43%;
-        margin: 20px auto;
-        /* border: 2px solid rgb(238, 255, 0); */
+      display: block;
+      width: 43%;
+      margin: 20px auto;
     }
 
     .right {
-        position: absolute;
-        right: 34px;
-        top: 40px;
-        display: inline-block;
-        /* border: 2px solid rgb(60, 0, 255); */
+      position: absolute;
+      right: 34px;
+      top: 40px;
+      display: inline-block;
     }
 
     .left img {
-        width: 70px;
-        filter: invert(90%);
+      width: 70px;
+      filter: invert(90%);
     }
 
     .navbar {
-        display: inline-block;
+      display: inline-block;
     }
 
     .navbar li {
-        display: inline-block;
+      display: inline-block;
     }
 
     .navbar li a {
-        color: rgb(255, 255, 255);
-        text-decoration: none;
-        padding: 0px 12px;
-        font-size: 15px;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      padding: 0px 12px;
+      font-size: 15px;
     }
 
     .navbar li a:hover {
-        color: rgb(0, 0, 0);
+      color: rgb(0, 0, 0);
     }
 
     .btn {
-        font-family: initial;
-        margin: 0px 9px;
-        background-color: rgb(78, 71, 71);
-        padding: 4px 14px;
-        border: 2px solid rgb(0, 0, 0);
-        border-radius: 10px;
-        font-size: 10px;
-        cursor: pointer;
+      font-family: initial;
+      margin: 0px 9px;
+      background-color: rgb(78, 71, 71);
+      padding: 4px 14px;
+      border: 2px solid rgb(0, 0, 0);
+      border-radius: 10px;
+      font-size: 10px;
+      cursor: pointer;
     }
 
     .btn:hover {
-        background-color: rgb(46, 45, 48);
+      background-color: rgb(46, 45, 48);
     }
 
     .container {
-        border: 2px solid white;
-        margin: 100px 44px;
-        padding: 0px 50px;
-        width: 25%;
-        border-radius: 28px;
-        font-family: sans-serif;
+      border: 2px solid white;
+      margin-top: 170PX;
+      margin-left: 40PX;
+      padding: 10px 50px;
+      width: 25%;
+      border-radius: 28px;
+      font-family: sans-serif;
     }
 
     .form-group input {
-        text-align: center;
-        display: block;
-        width: 95%;
-        padding: 5px;
-        border: 2px solid rgb(0, 0, 0);
-        margin: 5px auto;
-        font-size: 15px;
-        font-family: sans-serif;
-        border-radius: 6px;
+      text-align: center;
+      display: block;
+      width: 95%;
+      padding: 10px;
+      border: 2px solid rgb(255, 255, 255);
+      margin: 5px auto;
+      font-size: 15px;
+      font-family: sans-serif;
+      border-radius: 6px;
     }
 
     .container h1 {
-        text-align: center;
-        font-size: 25px;
+      text-align: center;
+      font-size: 25px;
     }
 
     .container button {
-        font-family: sans-serif;
-        display: block;
-        width: 75%;
-        margin: 23px auto;
-        color: rgb(255, 255, 255);
-
+      font-family: sans-serif;
+      display: block;
+      width: 75%;
+      margin: 23px auto;
+      padding: 8px;
+      font-size: 20px;
+      border-radius: 1  5px;
+      color: rgb(255, 255, 255);
     }
 
     .welcome {
-        text-align: center;
-        position: absolute;
-        top: 32%;
-        left: 41%;
+      text-align: center;
+      position: absolute;
+      top: 32%;
+      left: 41%;
     }
 
     #right {
-        color: rgb(220, 220, 220);
-        font-family: sans-serif;
-        font-size: 15px;
-        text-align: center;
-        justify-content: center;
-        margin-top: 10px;
+      color: rgb(220, 220, 220);
+      font-family: sans-serif;
+      font-size: 15px;
+      text-align: center;
+      justify-content: center;
+      margin-top: 10px;
     }
 
     #lorem {
-        color: rgb(230, 230, 230);
-        font-size: 16px;
-        width: 97%;
-        left: 44%;
+      color: rgb(230, 230, 230);
+      font-size: 16px;
+      width: 97%;
+      left: 44%;
     }
 
-    .services-container {
-        display: inline-block;
+    p {
+      font-size: 40px;
     }
+  </style>
 
-    .box {
-        border: 2px solid red;
-        text-align: center;
-        justify-content: center;
-        width: 30%;
-        color: black;
-        margin: 12px;
-        background-color: oldlace;
-    }
-
-    .center{
-        padding: 12px;
-    }
-</style>
-
-<body>
+  <body>
     <header class="header">
-        <!-- Left box for logo -->
-        <div class="left">
-            <img src="img/gym4.jpg" alt="">
-        </div>
+      <!-- Left box for logo -->
+      <div class="left">
+        <img src="img/gym4.jpg" alt="" />
+      </div>
 
-        <!-- Mid box for navbar -->
-        <div class="mid">
-            <ul class="navbar">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Fitness-Center</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-        </div>
+      <!-- Mid box for navbar -->
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Fitness-Center</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
 
-        <!-- Right box for button -->
-        <div class="right">
-            <buttton class="btn">Call Us now</buttton>
-            <buttton class="btn">Chat me</buttton>
-        </div>
+      <!-- Right box for button -->
+      <div class="right">
+        <buttton class="btn">Call Us now</buttton>
+        <buttton class="btn">Chat me</buttton>
+      </div>
     </header>
     <div class="container">
-        <h1>Join the best gym of surat now</h1>
-        <form action="noacting.php">
-            <div class="form-group">
-                <input type="text" name="" id="" placeholder="Enter your name">
-            </div>
+      <h1>Join the best gym of surat now</h1>
+      <form action="noacting.php">
+        <div class="form-group">
+          <input type="text" name="" id="" placeholder="Enter your name" />
+        </div>
 
-            <div class="form-group">
-                <input type="text" name="" id="" placeholder="Enter your Age">
-            </div>
+        <div class="form-group">
+          <input type="text" name="" id="" placeholder="Enter your Age" />
+        </div>
 
-            <div class="form-group">
-                <input type="text" name="" id="" placeholder="Enter your Gender">
-            </div>
+        <div class="form-group">
+          <input type="text" name="" id="" placeholder="Enter your Gender" />
+        </div>
 
-            <div class="form-group">
-                <input type="text" name="" id="" placeholder="Enter your Locality">
-            </div>
-            <button class="btn">Submit</button>
-        </form>
+        <div class="form-group">
+          <input type="text" name="" id="" placeholder="Enter your Locality" />
+        </div>
+        <button class="btn">Submit</button>
+      </form>
     </div>
 
     <div class="welcome">
-        <div id="right">
-            <h1><u>Welcome to Ashu Fitness Gym</u></h1>
-        </div>
-        <p id="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, amet vel soluta quis
-            necessitatibus in expedita officia earum dolores commodi! Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Ut, tempora. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, non!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit tempora voluptate consectetur porro neque
-            facere suscipit dolor dolorum qui. Ducimus.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      <div id="right">
+        <p><u>Welcome to Ashu Fitness Gym</u></p>
+      </div>
+      <p id="lorem">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum,
+        amet vel soluta quis necessitatibus in expedita officia earum dolores
+        commodi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut,
+        tempora. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        Nulla, non!
+      </p>
+      <p id="lorem">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit tempora
+        voluptate consectetur porro neque facere suscipit dolor dolorum qui.
+        Ducimus.
+      </p>
+      <p id="lorem">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      </p>
     </div>
-
-    <section class="services-container">
-        <h1 class="service">Our services</h1>
-        <div id="services">
-            <div class="box">
-                <img src="img/pizza1.png" alt="">
-                <h2 class="h-primary center">Food ordering</h2>
-                <p class="center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, culpa officiis.
-                    Tempora pariatur impedit voluptates sapiente cum nostrum et quos molestias provident! Excepturi,
-                    tenetur maxime! Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique porro voluptate
-                    praesentium inventore hic deserunt neque. Officia, libero. Ipsum, veritatis?</p>
-            </div>
-
-            <div class="box">
-                <img src="img/img6.png" alt="">
-                <h2 class="h-primary center">Food Catering</h2>
-                <p class="center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, culpa officiis.
-                    Tempora pariatur impedit voluptates sapiente cum nostrum et quos molestias provident! Excepturi,
-                    tenetur maxime! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos et odio fugiat libero
-                    illo voluptates, quis necessitatibus est in architecto.</p>
-            </div>
-
-            <div class="box">
-                <img src="img/img9.jpg" alt="">
-                <h2 class="h-primary center">Bulk ordering</h2>
-                <p class="center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, culpa officiis.
-                    Tempora pariatur impedit voluptates sapiente cum nostrum et quos molestias provident! Excepturi,
-                    tenetur maxime! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur recusandae sunt
-                    rem provident! Vitae ab laboriosam, hic quis praesentium soluta!</p>
-            </div>
-        </div>
-
-</body>
-
+  </body>
 </html>
