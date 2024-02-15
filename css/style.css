@@ -1,0 +1,136 @@
+body {
+    background-image: url(img/gym1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Ensure the body takes up the full viewport height */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+  /* Style for header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b6a9a9;
+    padding: 10px 20px;
+  }
+
+  /* Style for navbar */
+  .navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .navbar li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  .navbar li:last-child {
+    margin-right: 0;
+  }
+
+  .navbar li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #333;
+  }
+
+  .navbar li a:hover{
+    background-color: #383c41;
+    color: white;
+    padding: 15px;
+    border-radius: 25px;
+  }
+
+  /* Style for buttons */
+  .right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .left img {
+    width: 80px; /* Adjust the width here */
+  }
+  
+
+  .btn {
+    margin-left: 10px;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      padding: 20px;
+    }
+
+    .right {
+      margin-top: 10px;
+      justify-content: center;
+    }
+  }
+
+
+  .container {
+    position: absolute;
+    width: 60%;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    max-width: 800px;
+  }
+  
+  .container h1 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .btn {
+    background-color: #383c41;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .btn:hover {
+    background-color: #383c41;
+  }
+  
+  
